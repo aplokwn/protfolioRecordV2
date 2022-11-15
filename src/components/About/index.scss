@@ -1,0 +1,39 @@
+@media screen and (max-width: 1200px) {
+  .tags,
+  .about-page h1::before,
+  .about-page h1::after {
+    display: none;
+  }
+
+  .about-page {
+    .text-zone {
+      position: initial;
+      width: 70%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 36px;
+      line-height: 60px;
+    }
+
+    h2 {
+      font-weight: 400;
+      font-size: 15px;
+      box-sizing: border-box;
+    }
+    .bg-container {
+      position: initial;
+      display: block;
+      z-index: -1;
+      width: 210px;
+      height: 210px;
+      margin-bottom: 20px;
+      margin-left: 20%;
+      animation: fadeIn 1s linear both;
+      animation-delay: 1s;
+    }
+  }
+}
